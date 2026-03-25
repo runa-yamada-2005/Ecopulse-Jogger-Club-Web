@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moments</title>
+  <!-- Link to the common stylesheet (activities-and-stories.css) -->
+  <link rel="stylesheet" href="activities-and-stories.css">
+    <style>
+  .btn {
+    border-style: none;
+    border-width: medium;
+    border-color: inherit;
+    border-radius: 3px;
+    background-color: #BBD4CE;
+    color: #2A1965;
+    padding: 2px 26px;
+    text-align: center;
+    font-size: 11px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    font-weight: bold;
+    font-family: Verdana;
+    margin-left: 0px;
+    margin-bottom: 7px;
+   }
+  </style>
+</head>
+
+<body>
+<div id="container">
+	    <div class="top-bar">
+        <h5 style="color: #2A1965; font-family: Verdana">ECOPULSE JOGGER CLUB</h5>
+        <a href="default.html" class="btn">HOME</a>
+    </div>
+
+    <!-- Header section: Recreating the "ACTIVITIES AND STORIES" header -->
+    <header class="activities-header">
+        <div id="banner">
+            <h2 style="font-family: 'Comic Sans MS'; color: #FDEBD3; font-style: italic; font-weight: bold; height: 20px;" class="auto-style2">Moments</h2>
+			<h1 style="font-size: 48px; font-weight: bold; height: 53px;">ACTIVITIES AND STORIES</h1>
+        </div>
+    </header>
+
+    <!-- Navigation bar: Sub-page links within "Club Activities & Personal Journeys" section -->
+    <!-- This navigation will now overlay the image using CSS positioning -->
+    <nav class="nav">
+        <!-- Highlight the "Weekly Jogging Plan" link since this is the current page -->
+        <a href="highlights.html">HIGHLIGHTS</a> |
+        <a href="mindfulness.html">MINDFULNESS</a> |
+        <a href="challenges.html">CHALLENGES</a> |
+        <a href="schedule.html">SCHEDULE</a>
+    </nav>
+
+    <!-- Main content section -->
+        <section class="run-moment">
+                <div class="text-content">
+                <h2>&#x1F4F7; Tiny Seconds. Big Feelings. </h2>
+                <p>We believe every jog holds at least one moment worth remembering. It might be a reflection in a puddle, the light through the trees, or the quiet joy of moving your body through space. </p>
+                <p class="quote">"This space is for those one-second stories — captured through your lens."</p>
+            	</div>
+          		
+          		 <div class="form-container">
+					 <form class="moment-form">
+					    <h3 class="form-heading">MOMENT SUBMISSION FORM</h3>
+					
+					    <p class="intro-message">
+					      Please share a special moment from your jog.<br>
+					      A photo, a few words, and your perspective can inspire many!
+					    </p>
+					
+					    <label><strong>Upload a Photo*:</strong><br>
+					      <input type="file" name="photo" required>
+					    </label><br><br>
+					    
+					    <label><strong>One-line Caption (max 30 characters)*:</strong><br>
+				        <input type="text" name="caption" maxlength="30" required>
+				  	    </label><br><br>
+				
+				    	<label><strong>Date of Jog*:</strong><br>
+				    	<input type="date" name="jog-date" required>
+				   	   	</label><br><br>
+					    				
+				      <label>Jogging Experience Level:<br>
+				        <select name="experience">
+				          <option>Beginner</option>
+				          <option>Intermediate</option>
+				          <option>Advanced</option>
+				        </select>
+				      </label><br><br>
+				
+				      <label>Preferred Jogging Days:<br>
+				        <input type="checkbox" name="days" value="Monday"> Monday
+				        <input type="checkbox" name="days" value="Wednesday"> Wednesday
+				        <input type="checkbox" name="days" value="Friday"> Friday
+				        <input type="checkbox" name="days" value="Weekend"> Weekend
+				      </label><br><br>
+				
+				      <label>Location:<br>
+				        <input type="text" name="location">
+				      </label><br><br>
+				
+				      <label><strong>Nickname*:</strong><br>
+				        <input type="text" name="nickname" required>
+				      </label><br><br>
+				
+				      <label>
+				        <input type="checkbox" name="permission" required>
+				        I give permission for my photo and caption to be featured in the club gallery
+				      </label><br><br>
+				
+				      <button type="submit">Submit</button>
+				    </form>
+				  </div>
+				  
+			<section class="moment-media-section">
+			  <h2 class="gallery-moment">&nbsp;</h2>
+				<h2 class="gallery-moment">Gallery of Moments!</h2>
+			  <p class="gallery-moment">
+			    A snapshot and a clip from a recent member jog. Be inspired and feel the energy of the community!  
+			    <br>
+			    Your submissions will be displayed in a responsive, scrollable wall.  
+			  </p>
+			  
+			  <div class="media-container">
+			    <img src="3-Moment1.jpg" alt="Jogging Moment Photo" class="media-img vertical">
+			    <img src="3-Moment2.jpg" alt="Jogging Moment Photo" class="media-img vertical">
+
+			    <video src="3-Moment-video.mp4" class="media-video" controls></video>
+			  </div>
+			</section>
+		</section>
+        
+    <!-- Footer section -->
+    <div class="footer">
+        <p>&copy; 2025 ECOPULSE JOGGER CLUB. All Rights Reserved.</p>
+    </div>
+</div>
+<script src="Jogging.js"></script>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</body>
+</html>

@@ -1,0 +1,264 @@
+﻿/*FAQ CSS*/
+
+body {
+	font-family: 'Verdana', sans-serif;
+	background-color: #999999;
+	color: #ffffff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+a {
+	color: #512805;
+	text-decoration: none;
+}
+a:hover {
+	/* Swapping colors */
+	color: #679186;
+	background-color: #F7CCC6;
+	color: #679186;
+	background-color: #F7CCC6;
+}
+input[type=text] {
+	width: 130px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 10px;
+	font-size: 16px;
+	background-color: #2A1965;
+	color: #FFFFFF;
+	padding: 8px 12px 8px 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	opacity: 0.9;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+	width: 90%;
+}
+    
+input[type=text]::placeholder {
+	color: #FFFFFF;
+	opacity: 1; /* ensures white color is not faded */
+}
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: white;
+	color: green;
+	cursor: pointer;
+	padding: 13px;
+	border-radius: 4px;
+}
+#myBtn:hover {
+	background-color: #679186;
+	color: #FFFFFF;
+}
+
+#container{
+	border: 1px solid #512805;
+	background-color: #FFF7EC;
+	margin-right: auto;
+	margin-left: auto;
+	width: 960px;
+}
+header {
+	background: #FFDDAF;
+	color: white;
+	text-align: center;
+	margin-right: 50px;
+	margin-left: 50px;
+	padding-bottom: 0px;
+	padding-top: 20px;
+	line-height: 0px;
+}
+.top-bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.1rem;
+	background-color: #FFF7EC;
+	margin-right: 45px;
+	margin-left: 45px;
+}
+#banner {
+	margin-top: 0.5rem;
+	text-align: right;
+	padding-right: 40px;
+}
+nav {
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color:#FFDDAF;
+	background: #2A1965;
+	padding: 8px;
+	text-align: center;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 0.5px;
+}
+
+.footer {
+	padding: 80px 80px 63px 80px;
+	color: white;
+	text-align: center;
+	background-image:url('footer.jpeg');
+	font-style: italic;
+	font-family: "Times New Roman";
+	height: 63px;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 380px;
+}
+
+.background-img {
+	width: 90%;
+	height: 100%;
+	object-fit: cover;
+	opacity: 0.5;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.overlay-text {
+	position: absolute;
+	top: 50%;
+	right: 50px;
+	transform: translateY(-50%);
+	z-index: 2;
+	color: #2A1965;
+	text-align: left;
+	font-weight: bold;
+	font-family: Verdana, sans-serif;
+	font-size: 16px;
+	width: 380px;
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 20px;
+	border-radius: 12px;
+}
+
+/* Make Join Button appear on left over image */
+.join-btn-wrapper {
+	position: absolute;
+	bottom: 40px;
+	left: 50px;
+	z-index: 2;
+	animation: slideInRight 0.8s ease-out forwards;
+}
+
+/* Button Style */
+.join-btn {
+  background-color: white;
+  color: #2A1965;
+  padding: 10px 20px;
+  font-family: 'Verdana', sans-serif;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  display: inline-block;
+}
+
+/* Bounce Hover Animation */
+.join-btn:hover {
+  background-color: #2A1965;
+  color: white;
+  animation: bounce 0.4s ease;
+}
+
+.faq-container {
+	width: calc(100% - 80px); /* 40px margin on both sides */;
+	margin: 40px auto 40px 50px;
+	font-family: 'Verdana', sans-serif;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+/* Each row */
+.row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* General FAQ wider (70%) */
+.faq-box.general {
+  flex: 0 0 63%;
+}
+
+/* Contact box smaller (10%) */
+.faq-box.contact {
+	flex: 0 0 10%;
+	background-color: #fff7ec;
+	box-shadow: none;
+	font-family: 'Comic Sans MS', cursive, sans-serif;
+	font-size: xx-large;
+}
+
+/* Membership & Environment - equal width */
+.row .faq-box:not(.general):not(.contact) {
+  flex: 0 0 48.5%;
+}
+
+/* All boxes */
+.faq-box {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  min-width: 300px;
+  box-sizing: border-box;
+}
+
+/* Title styling – centered */
+.faq-title {
+  font-weight: bold;
+  font-size: 15px;
+  padding: 8px 16px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Colored headers */
+.orange {
+  background: #FFDDAF;
+  color: #FF5151;
+}
+
+.purple {
+  background: #CFC7EB;
+  color: #2A1965;
+}
+
+.blue {
+  background: #2A1965;
+  color: #DEDAEC;
+}
+
+/* Text spacing */
+.faq-box p {
+  font-size: 14px;
+  line-height: 1.6;
+  color:#2a1965
+}

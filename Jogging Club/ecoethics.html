@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eco-Ethics</title>
+  <link rel="stylesheet" href="Akla.css">
+  <style> 
+  .btn {
+    border-style: none;
+    border-width: medium;
+    border-color: inherit;
+    border-radius: 3px;
+    background-color: #BBD4CE;
+    color: #2A1965;
+    padding: 2px 26px;
+    text-align: center;
+    font-size: 11px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    font-weight: bold;
+    font-family: Verdana;
+    margin-left: 0px;
+    margin-bottom: 7px;
+  }
+  .auto-style1 {
+	  margin-left: 50px;
+  }
+  </style>
+</head>
+<body>
+<div id="container">
+
+  <div class="top-bar">
+    <h5 style="color: #2A1965; font-family: Verdana">ECOPULSE JOGGER CLUB</h5>
+    <a href="default.html" class="btn">HOME</a>
+  </div>
+
+  <header>
+    <div id="banner">
+      <h2 style="font-family: 'Comic Sans MS'; color: #FCEAD2 ; font-style: italic; font-weight: bold; height: 20px;">EcoEthics</h2>
+      <h1 style="font-size: 48px; font-weight: bold; height:53px">JOGGING WITH NATURE</h1>
+    </div>
+  </header>
+    <nav class="nav">
+      <a href="trees.html">TREE TRAIL</a> |
+      <a href="green-routes.html">GREEN ROUTES</a> |
+      <a href="air.html">AIR QUALITY</a> |
+      <a href="weathering.html">WEATHERING</a> |
+    </nav>
+  
+	<div class="content-box">
+	  <h2>Respecting Nature While You Run</h2>
+	
+	  <p>
+	    Jogging is not just a physical activity — it’s a chance to be a steward of nature. By being mindful of how we interact with our environment, we help preserve the beauty of our parks and trails for everyone.
+	  </p>
+	<br/>
+	  <h3>&#127807; Eco-Friendly Jogging Tips</h3>
+	  <ul>
+	    <li><b>&#128465; Don’t Litter:</b> Always dispose of waste properly. Carry a small trash bag or use bins along your path.</li>
+	    <li><b>&#128739; Stay on Trails:</b> Stick to marked paths to protect plant life and reduce erosion.</li>
+	    <li><b>&#128167; Use Refillable Bottles:</b> Avoid disposable plastics by bringing a reusable water bottle.</li>
+	    <li><b>&#128038; Respect Wildlife:</b> Observe animals quietly from a distance without feeding or disturbing them.</li>
+	    <li><b>&#127795; Support Green Spaces:</b> Volunteer for park clean-ups and conservation events when you can.</li>
+	  </ul>
+	<br/>
+	  <h3>&#9997; Sign Up for Our Trail Clean-Up Run</h3>
+	  <p>
+	    Join our next student-led Trail Clean-Up Jog to give back to nature while staying fit! Fill out the form below to register:
+	  </p>
+	
+	  <form onsubmit="return thankYou()" style="margin-top: 10px;">
+	      <label for="name">Name:</label><br>
+	    <input type="text" id="name" name="name" required style="margin-bottom: 10px;"><br>
+	
+	    <label for="email">Email:</label><br>
+	    <input type="email" id="email" name="email" required style="margin-bottom: 10px;"><br>
+	
+	    <label for="time">Preferred Time Slot:</label><br>
+	    <select id="time" name="time" required style="margin-bottom: 10px;">
+	      <option value="">-- Select One --</option>
+	      <option value="Morning">Morning (7:00 AM)</option>
+	      <option value="Evening">Evening (6:00 PM)</option>
+	    </select><br>
+	
+	    <button type="submit" class="btn">Sign Up</button>
+	  </form>
+	
+	  <script>
+	    function thankYou() {
+	      let name = document.getElementById("name").value;
+	      alert("Thank you, " + name + "! You're signed up for the Trail Clean-Up Run.");
+	      return false; // prevent actual form submission
+	    }
+	  </script>
+	</div>
+<div class="footer"></div>
+</div>
+<script src="Jogging.js"></script>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</body>
+</html>
