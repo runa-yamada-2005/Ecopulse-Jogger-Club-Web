@@ -36,6 +36,16 @@ The page is divided into multiple categories:
 
 ---
 
+### Weekly Plan and Printable PDF Support
+This section provides structured jogging plans tailored to different experience levels, helping users maintain consistency in their routines.
+
+A printable weekly jogging plan PDF is also included to support offline usage, allowing users to follow their plans without relying on the website.  
+This feature enhances accessibility and encourages continuous engagement beyond the digital platform.
+
+![Weekly Plan and PDF Support](images/weekly-plan-pdf-support.png)
+
+---
+
 ### Interactive Carousel (JavaScript)
 A JavaScript-based carousel was implemented to display user-submitted jogging moments dynamically.  
 This improves usability and encourages users to explore shared experiences.
