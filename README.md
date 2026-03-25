@@ -2,51 +2,51 @@
 
 ## Overview
 This project is a web-based jogging community platform developed as part of a group assignment.  
-It was designed to encourage healthy habits, user engagement, and community participation through structured jogging plans, interactive features, and media-supported content.
+It focuses on promoting healthy habits and community engagement through structured content and user interaction.
 
 ---
 
 ## My Contribution
 
-I was responsible for selected front-end pages and user interaction features of the website.
+I was specifically responsible for the **Activities & Stories section** of the website.
 
 My main contributions included:
-- Designing and implementing structured content pages using HTML and CSS
-- Developing interactive elements using JavaScript
-- Creating a member submissions carousel for dynamic content display
-- Designing a user submission form for community participation
-- Integrating supportive media content such as images, video, and printable resources
+- Designing and implementing the **Activities & Stories page structure** using HTML and CSS
+- Developing **interactive components using JavaScript**, including a dynamic content carousel
+- Designing and implementing a **user submission form** for sharing jogging moments
+- Organizing multiple content categories such as Schedule, Challenges, Highlights, Moments, and Mindfulness
+- Integrating images and selected media to enhance user engagement
 
 ---
 
-## Featured Pages and Functions
+## Activities & Stories Section
 
-### Activities & Stories Page
-This page presents jogging-related content in a clear and organized layout, including schedules, weekly plans, and reflective content for users.
+This section serves as the core user engagement area of the platform.  
+It organizes jogging-related content into structured categories and supports both content consumption and user participation.
+
+### Page Structure
+The page is divided into multiple categories:
+- Schedule
+- Challenges
+- Highlights
+- Moments
+- Mindfulness
 
 ![Activities & Stories Page](images/activities-stories-page.png)
 
 ---
 
-### Weekly Plan and Printable PDF Support
-This section provides structured jogging plans for different experience levels.  
-A printable weekly jogging plan PDF is also included to support offline use and continuous engagement beyond the website.
-
-![Weekly Plan and PDF Support](images/weekly-plan-pdf-support.png)
-
----
-
-### Member Submissions Carousel
-This feature was implemented using JavaScript to create an interactive image carousel that displays community-submitted jogging moments.  
-It improves engagement by allowing users to browse shared reflections dynamically.
+### Interactive Carousel (JavaScript)
+A JavaScript-based carousel was implemented to display user-submitted jogging moments dynamically.  
+This improves usability and encourages users to explore shared experiences.
 
 ![Member Submissions Carousel](images/member-submissions-carousel.png)
 
 ---
 
-### Moment Submission Form
-This form allows users to contribute their own jogging experiences by submitting a photo, caption, date, preferences, and other related details.  
-It was designed to support user-generated content and strengthen community interaction.
+### User Submission Form
+A form was designed to allow users to submit their own jogging experiences, including images and descriptions.  
+This feature supports community-driven content and enhances user interaction.
 
 ![Moment Submission Form](images/moment-submission-form.png)
 
@@ -54,12 +54,11 @@ It was designed to support user-generated content and strengthen community inter
 
 ## UX Design Focus
 
-This project was designed with the following user experience goals in mind:
-- Clear and structured information presentation
-- Interactive engagement through JavaScript-based features
-- Community participation through user submissions
-- Continuous user support through printable offline resources
-- A calm and approachable visual style suitable for a wellness-focused community platform
+The Activities & Stories section was designed with the following UX goals:
+- Clear categorization of content for easy navigation
+- Interactive elements to increase user engagement
+- Support for user-generated content
+- Simple and intuitive layout for better usability
 
 ---
 
@@ -71,31 +70,32 @@ This project was designed with the following user experience goals in mind:
 ---
 
 ## Notes
-This repository contains the full group project files to preserve complete functionality of the website.
+This repository contains the full group project to maintain overall functionality.
 
-Some large media files, particularly certain `.mp4` files, are not included in this repository because GitHub has file size limitations for standard uploads.  
-Only the necessary and representative media files are included to keep the project accessible and maintainable while preserving the main user experience and functionality.
+Some large media files (such as certain `.mp4` files) are not included due to GitHub file size limitations.  
+Only essential and representative media files are retained to ensure accessibility while preserving key features.
 
-My contribution is specifically reflected in the pages and interface elements shown above.
+My contribution is specifically reflected in the **Activities & Stories section and its interactive features**.
 
 ---
 
 ## How to Run
 
-1. Download or clone this repository
-2. Open the main HTML file in your browser
-3. Ensure that the included image, CSS, JavaScript, PDF, and video files remain in their original relative paths for proper display and interaction
+1. Download or clone this repository  
+2. Open the main HTML file in your browser  
+3. Ensure all files remain in their original structure for proper functionality  
 
 ---
 
 ## 日本語補足
 
-本プロジェクトは、ジョギングを通じた健康習慣とコミュニティ参加を促すことを目的としたグループWeb制作課題です。
+本プロジェクトは、ジョギングを通じた健康促進とコミュニティ参加を目的としたWebアプリケーションです。
 
-私は主に以下の部分を担当しました：
-- HTML / CSS を用いたページ設計とレイアウト実装
-- JavaScript を用いたカルーセルなどのインタラクション実装
+私は主に **Activities & Stories セクション** を担当し、以下を実装しました：
+- ページ構造の設計（Schedule / Challenges / Highlights / Moments / Mindfulness）
+- JavaScriptを用いたカルーセルなどのインタラクション実装
 - ユーザー投稿フォームの設計
-- PDFや画像・動画を活用したユーザー体験の向上
+- 画像・メディアを用いたユーザー体験の向上
+
 
 ※ 一部の mp4 ファイルは GitHub の容量制限のため含めていませんが、サイトの主要な構成・機能・体験が分かるように必要な要素は残しています！
